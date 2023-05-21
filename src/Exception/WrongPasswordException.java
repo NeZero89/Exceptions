@@ -1,9 +1,8 @@
 package Exception;
 
-public class WrongPasswordException {
-    public  WrongPasswordException extends Exception{
-        WrongPasswordException(String messenge){
+public class WrongPasswordException extends Exception{
+    public   WrongPasswordException(String messenge){
             super(messenge);
         }
-    }
+
 }
